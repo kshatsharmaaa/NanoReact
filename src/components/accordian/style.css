@@ -1,17 +1,14 @@
 .wrapper {
     display: flex;
-    height: 100vh;
-    width: 100vw;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
 }
 
 .wrapper button{
     padding: 10px 20px;
-    background: beige;
-    color: #242424;
+    margin: 20px;
     cursor: pointer;
 }
 
@@ -20,13 +17,14 @@
 }
 
 .item {
-    background: beige;
+    background: #1a1a1a;
     margin-bottom: 10px;
     padding: 10px 20px;
+    border-radius: 15px;
 }
 
 .title {
-    color:#242424;
+    color:#ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,6 +32,7 @@
 }
 
 .content {
-    color :#242424;
+    color :#ffffff;
     height: auto;
 }
+

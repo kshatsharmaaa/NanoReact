@@ -25,7 +25,8 @@ export default function Accordian() {
         setMultiple(copyMultiple);
     }
 
-    return <div className="wrapper">
+    return (
+    <div className="wrapper">
         <h3>#1 Accordian</h3>
         <button onClick={() =>  setMultiSelection(!multiSelection)}>Enable Mutli-Selection</button>
         <div className="accordian">
@@ -42,5 +43,5 @@ export default function Accordian() {
                 )
                 : <div className="">No data found!</div> }
         </div>
-    </div>
+    </div>)
 } 
